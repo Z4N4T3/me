@@ -1,7 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    padding: 0;font-family: monospace;
+    color: aliceblue;
 }
 
 body{
@@ -12,22 +12,39 @@ body{
     padding: 8px;
     display: flex;
     justify-content: space-around;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
 
-.navy_a{
+.navy_a1{
     text-decoration: none;
     color: #1f1f1f;
     font-weight: bold;
 }
-.navy_a:hover{
+.navy_a2{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.navy_a3{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.navy_a1:hover{
     color:#FF0090;
+}
+.navy_a2:hover{
+    color:#00B0F6;
+}
+.navy_a3:hover{
+    color:#FFEF00;
 }
 
 .intro{
     padding: 8px;
     background-color:#1f1f1f;
-    color:#fff;
 }
 
 .banner{
@@ -39,3 +56,27 @@ body{
     background-position: center center;
 }
 
+.algo{
+    display: flex;
+    background-color: #1f1f1f;
+    padding: 24px;
+    justify-content: center;
+}
+
+.me-tit{
+    margin-bottom: 16px;
+    
+}
+.me-desc{
+    margin-bottom: 8px;
+}
+
+
+.pic{
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50% 50%;
+    background-image: url(/img/me3.jpg);
+    background-position: cover;
+}
