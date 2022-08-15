@@ -1,12 +1,20 @@
 *{
     margin: 0;
-    padding: 0;font-family: monospace;
+    padding: 0;
+    font-family: monospace;
     color: aliceblue;
+    box-sizing: border-box;
 }
-
+header{
+    width: 100%;
+    position: fixed;
+}
 body{
     cursor: url(/img/hand.png), auto; 
+    background-image: url(/img/bg1.gif);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navy{
@@ -15,6 +23,7 @@ body{
     justify-content: space-around;
     font-size: 24px;
     letter-spacing: 2px;
+    background-color: aliceblue;
 }
 
 
@@ -48,32 +57,34 @@ body{
     background-color:#1f1f1f;
 }
 
+
 .banner{
     height: 300px;
     width: auto;
-    background-image: url(/img/bg1.gif);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
+   
 }
+.me{
 
-.algo{
-    display: flex;
-    background-color: #1f1f1f;
-    padding: 24px;
-    justify-content: center;
     background-image: url(/img/body-bg.png) ;
     
     background-size: cover;
+ 
+}
+
+.me-intro{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
     
 }
 
 .me-tit{
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 16px;
     
 }
 .me-desc{
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
