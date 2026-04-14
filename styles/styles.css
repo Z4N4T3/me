@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: monospace;
     color: aliceblue;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100%;
     position: fixed;
 }
-body{
-    cursor: url(/img/hand.png), auto; 
+
+body {
+    cursor: url(/img/hand.png), auto;
     background-image: url(/img/bg1.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.navy{
+.navy {
     padding: 8px;
     display: flex;
     justify-content: space-around;
@@ -27,73 +29,80 @@ body{
 }
 
 
-.navy_a1{
+.navy_a1 {
     text-decoration: none;
     color: #1f1f1f;
     font-weight: bold;
-}
-.navy_a2{
-    text-decoration: none;
-    color: #1f1f1f;
-    font-weight: bold;
-}
-.navy_a3{
-    text-decoration: none;
-    color: #1f1f1f;
-    font-weight: bold;
-}
-.navy_a1:hover{
-    color:#FF0090;
-}
-.navy_a2:hover{
-    color:#00B0F6;
-}
-.navy_a3:hover{
-    color:#FFEF00;
 }
 
-.intro{
+.navy_a2 {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.navy_a3 {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+.navy_a1:hover {
+    color: #FF0090;
+}
+
+.navy_a2:hover {
+    color: #00B0F6;
+}
+
+.navy_a3:hover {
+    color: #FFEF00;
+}
+
+.intro {
     padding: 8px;
-    background-color:#1f1f1f;
+    background-color: #1f1f1f;
 }
 
 
-.banner{
+.banner {
     height: 300px;
     width: auto;
-   
-}
-.me{
 
-    background-image: url(/img/body-bg.png) ;
-    
+}
+
+.me {
+
+    background-image: url(/img/body-bg.png);
+
     background-size: cover;
- 
+
 }
 
-.me-intro{
+.me-intro {
     display: flex;
     padding: 24px;
     justify-content: center;
-    
+
 }
 
-.me-tit{
+.me-tit {
     font-size: 32px;
     margin-bottom: 16px;
-    
+
 }
-.me-desc{
+
+.me-desc {
     font-size: 16px;
     margin-bottom: 8px;
 }
 
 
-.pic{
+.pic {
 
     height: 400px;
     width: 400px;
     border-radius: 50% 50%;
-    background-image: url(/img/me3.jpg);
+    background-image: url(/img/me-xd.jpeg);
     background-position: cover;
 }
